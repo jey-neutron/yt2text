@@ -3,6 +3,9 @@
 ::pip install pytube whisper langdetect torch tiktoken tqdm numba more-itertools
 ::python -m pip install numpy==1.26.4
 ::install chocolatey -> choco install ffmpeg
+:: create env
+echo # Creating environment
+python -m venv .venv
 :: use env
 call .\.venv\Scripts\activate.bat
 cls
