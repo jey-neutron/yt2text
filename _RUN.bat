@@ -8,6 +8,9 @@ echo # Creating environment
 python -m venv .venv
 :: use env
 call .\.venv\Scripts\activate.bat
+:: install libr
+echo # Installing library needed
+python -m pip install -r requirements.txt
 cls
 ::python -m yaudio_to_text.py
 python -m youtube_audio_to_text.py
